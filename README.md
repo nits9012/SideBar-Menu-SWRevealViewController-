@@ -8,7 +8,7 @@ To implement SWRevealViewController first download the library from the https://
 
 Click on Create Bridging Header , open your SWRevealViewController-Bridging-Header.h file then write the following line in your file : -
 
-#import “SWRevealViewController.h"
+<code>#import “SWRevealViewController.h" </code>
 
 
 After that, Go to storyboard and assign a “SWRevealViewController” class to view controller.
@@ -44,11 +44,11 @@ then  drag and drop a bar button on FirstViewController create its outlet
 Write this code on FirstViewController.swift , and follow this procedure form other view controller
 
 
-
- if self.revealViewController() != nil {
+<code> if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
-  }
+  }</code>
+
 
 
 

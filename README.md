@@ -25,9 +25,7 @@ Select FirstViewController form the Main.storyboard , then click on Editor -> Em
 
 
 
-then draw a “reveal view controller push controller” from SWRevealViewController to First View Controller. After that set its identifier “sw_front”, follow the same procedure form 
-
-second one and set its identifier “sw_rear”
+then draw a “reveal view controller set controller” from SWRevealViewController to First View Controller. After that set its identifier “sw_front”, follow the same procedure form second one and set its identifier “sw_rear”
 
 
 

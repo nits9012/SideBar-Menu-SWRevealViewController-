@@ -41,11 +41,11 @@ then  drag and drop a bar button on FirstViewController create its outlet
 Write this code on FirstViewController.swift , and follow this procedure form other view controller
 
 
-<code> if self.revealViewController() != nil { <br/>
-            menuButton.target = self.revealViewController()<br/>
-            menuButton.action = "revealToggle:"<br/>
-  }<br/>
-  </code>
+<code> if self.revealViewController() != nil {   </code>
+ <code>            menuButton.target = self.revealViewController() </code>
+ <code>            menuButton.action = "revealToggle:" </code>
+<code>   }   </code>
+
 
 
 

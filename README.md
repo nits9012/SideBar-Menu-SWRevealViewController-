@@ -29,8 +29,7 @@ then draw a “reveal view controller set controller” from SWRevealViewControl
 
 
 
-![screen shot 2016-05-27 at 12 21 38 pm](https://cloud.githubusercontent.com/assets/19264044/15600877/68418628-240a-11e6-90e5-cccfe46f9e49.png)
-
+![screen shot 2016-05-27 at 12 23 23 pm](https://cloud.githubusercontent.com/assets/19264044/15601501/561eaa68-240d-11e6-8d42-abfa8953546a.png)
 
 
 then  drag and drop a bar button on FirstViewController create its outlet 
@@ -45,10 +44,11 @@ Write this code on FirstViewController.swift , and follow this procedure form ot
 <code> if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
-  }</code>
+  }
+  </code>
 
 
 
 
-![alt tag](https://cloud.githubusercontent.com/assets/19264044/15501778/f199bf7a-21cc-11e6-8ce3-76b0ed39431c.png)
+![screen shot 2016-05-27 at 12 34 53 pm](https://cloud.githubusercontent.com/assets/19264044/15501778/f199bf7a-21cc-11e6-8ce3-76b0ed39431c.png)
 
